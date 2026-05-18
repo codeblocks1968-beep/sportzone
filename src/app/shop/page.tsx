@@ -7,7 +7,9 @@ import FilterSidebar from '@/components/FilterSidebar';
 import { ChevronDown, Search as SearchIcon, SlidersHorizontal } from 'lucide-react';
 import { useSearchParams } from 'next/navigation';
 
-const ShopPage = () => {
+import { Suspense } from 'react';
+
+const ShopContent = () => {
   const searchParams = useSearchParams();
   const initialGender = searchParams.get('gender') || 'All';
   const initialSearch = searchParams.get('q') || '';
@@ -205,6 +207,14 @@ const ShopPage = () => {
         }
       `}</style>
     </div>
+  );
+};
+
+const ShopPage = () => {
+  return (
+    <Suspense fallback={<div style={{ padding: '8rem 0', textAlign: 'center' }}>Loading...</div>}>
+      <ShopContent />
+    </Suspense>
   );
 };
 
