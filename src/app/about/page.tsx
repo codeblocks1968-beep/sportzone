@@ -18,7 +18,7 @@ const AboutPage = () => {
         background: '#000'
       }}>
         <div style={{ position: 'absolute', inset: 0, opacity: 0.4 }}>
-          <Image src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80" alt="About Hero" fill style={{ objectFit: 'cover' }} />
+          <Image src="https://placehold.co/800x800/111111/FFFFFF?text=SPORT+ZONE" alt="About Hero" fill style={{ objectFit: 'cover' }} />
         </div>
         <div className="container" style={{ position: 'relative', textAlign: 'center' }}>
           <motion.h1 
@@ -62,7 +62,7 @@ const AboutPage = () => {
               viewport={{ once: true }}
               style={{ position: 'relative', height: '450px', borderRadius: 'var(--radius)', overflow: 'hidden' }}
             >
-              <Image src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80" alt="Athlete" fill style={{ objectFit: 'cover' }} />
+              <Image src="https://placehold.co/800x800/111111/FFFFFF?text=SPORT+ZONE" alt="Athlete" fill style={{ objectFit: 'cover' }} />
             </motion.div>
           </div>
         </div>

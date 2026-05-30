@@ -50,7 +50,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         status: 'Delivered',
         items: [
           { id: '1', name: 'Neon Velocity Runner - Goku Edition', price: 129.99, quantity: 1, image: '/images/shoes.png' },
-          { id: '12', name: 'CloudWalk Trainers', price: 110.00, quantity: 1, image: 'https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&q=80' }
+          { id: '12', name: 'CloudWalk Trainers', price: 110.00, quantity: 1, image: 'https://placehold.co/800x800/111111/FFFFFF?text=SPORT+ZONE' }
         ]
       },
       {
@@ -59,7 +59,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         total: 85.00,
         status: 'Processing',
         items: [
-          { id: 'w1', name: 'Zen-Flow Yoga Set', price: 85.00, quantity: 1, image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80' }
+          { id: 'w1', name: 'Zen-Flow Yoga Set', price: 85.00, quantity: 1, image: 'https://placehold.co/800x800/111111/FFFFFF?text=SPORT+ZONE' }
         ]
       }
     ]

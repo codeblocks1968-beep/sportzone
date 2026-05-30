@@ -120,6 +120,8 @@ const Footer = () => {
           opacity: 0.5,
           fontSize: '0.9rem'
         }}>
+
+       
           <p>&copy; {new Date().getFullYear()} SPORT ZONE. All rights reserved. Made by Mahak at LIS Summer Camp 2026.</p>
         </div>
       </div>

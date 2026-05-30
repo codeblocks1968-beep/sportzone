@@ -22,7 +22,7 @@ const slides = [
     title: "Level Up Your Training",
     subtitle: "PREMIUM GYM GEAR",
     description: "Experience the perfect blend of comfort and durability with our latest compression wear collection.",
-    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80",
+    image: "https://placehold.co/800x800/111111/FFFFFF?text=SPORT+ZONE",
     cta: "Explore Gear",
     link: "/shop?category=Compression Wear",
     color: "#ef4444"

@@ -32,9 +32,9 @@ export default function Home() {
             gap: '2rem'
           }}>
             {[
-              { name: 'Sportswear', image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80', count: '120+ Items' },
+              { name: 'Sportswear', image: 'https://placehold.co/800x800/111111/FFFFFF?text=SPORT+ZONE', count: '120+ Items' },
               { name: 'Running Shoes', image: '/images/shoes.png', count: '85+ Items' },
-              { name: 'Gym Equipment', image: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&q=80', count: '50+ Items' }
+              { name: 'Gym Equipment', image: 'https://placehold.co/800x800/111111/FFFFFF?text=SPORT+ZONE', count: '50+ Items' }
             ].map((cat, i) => (
               <motion.div
                 key={cat.name}
